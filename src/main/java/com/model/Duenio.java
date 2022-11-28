@@ -1,12 +1,10 @@
 package com.model;
 import javax.persistence.*;
 
-import lombok.Data;
-
 import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Set;
-@Data
+
 @Entity
 @Table(name="duenio")
 public class Duenio{
